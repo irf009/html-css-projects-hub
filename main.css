@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #eff3f9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  margin: 0 auto;
+  width: 85vw;
+  height: 100vh;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  padding: 10px 30px;
+  min-width: 740px;
+  max-width: 1225px;
+  /* background-color: rgb(244, 253, 255); */
+}
+.content-title {
+  font-size: 25px;
+  text-align: center;
+  padding: 25px 0;
+}
+.project {
+  width: 400px;
+  height: 215px;
+  margin: 30px 45px;
+  border-radius: 10px;
+  background-color: white;
+  transition: transform 0.3s;
+  padding-top: 95px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.projects {
+  margin-left: 100px;
+}
+.project:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+.one {
+  background-color: rgb(211, 231, 248);
+  /* color: rgb(142, 196, 244); */
+  color: rgb(10, 130, 235);
+}
+.one:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(./Screen\ Shot\ 2023-02-11\ at\ 09.52.11.png);
+}
+.two {
+  background-color: #f1f5f9;
+  /* color: #c3c5c8; */
+  color: #606061;
+}
+.two:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(./Screen\ Shot\ 2023-02-11\ at\ 10.07.22.png);
+}
+.three {
+  background-color: hsl(30, 38%, 92%);
+  /* color: hsl(30, 48%, 72%); */
+  color: hsl(30, 25%, 52%);
+}
+.three:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(./Screen\ Shot\ 2023-02-11\ at\ 10.24.02.png);
+}
+.four {
+  background-color: rgb(197, 131, 78);
+  /* color: rgb(132, 76, 29); */
+  color: rgb(81, 43, 11);
+}
+.four:hover {
+  color: rgba(0, 0, 0, 0);
+  background-image: url(./Screen\ Shot\ 2023-02-11\ at\ 10.48.14.png);
+}
+p {
+  font-size: 35px;
+}
+h1 {
+  display: inline-block;
+  position: relative;
+  color: #606061;
+}
+h1::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #606061;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+h1:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
