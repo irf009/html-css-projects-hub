@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400&display=swap");
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: #eff3f9;
 }
 * {
@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   width: 85vw;
   height: 100vh;
-  background-color: red;
+  background-color: white;
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 100px;
@@ -93,7 +93,7 @@ h1 {
   color: #606061;
 }
 h1::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
